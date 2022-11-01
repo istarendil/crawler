@@ -3,7 +3,7 @@ The **crawler robot** is a simple and low-cost physical platform for the initial
 
 ![crawler](https://user-images.githubusercontent.com/107052856/199168370-a2930d46-5c04-4585-90a6-cc77716fefe0.jpeg)
  <br>
-The reinforcement learning algorithm used for the robot to find a sequence of actions that provide locomotion by its own is known as [**Q-learning**](https://es.wikipedia.org/wiki/Q-learning). The agent starts by executing random movements with his arm and when some sequence manages to mobilize the platform, the robot receives a positive reward. It is the repetition of this reward process that allows the robot to strengthen the movements that give it consistent movement and ignore the ones that do not.
+The reinforcement learning algorithm used for the robot to find a sequence of actions that provide locomotion by its own is known as [**Q-learning**](https://es.wikipedia.org/wiki/Q-learning). The agent starts by executing random movements with his arm and when some sequence manages to mobilize the platform, the robot receives a positive reward. It is the repetition of this reward process that allows the robot to strengthen the movements that give it consistent locomotion and ignore the ones that do not.
 
 ![policy](https://user-images.githubusercontent.com/107052856/199168945-4ae1d700-5b0c-4bb4-9215-6672626eb882.gif)
 
